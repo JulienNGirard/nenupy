@@ -40,7 +40,7 @@ or the current 'beta' version hosted on `GitHub <https://github.com/AlanLoh/nenu
     
     You would probably have to update some packages:
         
-        .. code-block:: bash
+.. code-block:: bash
 
             python3.8 -m pip install setuptools
             python3.8 -m pip install --upgrade jupyter
