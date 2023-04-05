@@ -100,6 +100,7 @@ Whenever an operation is performed on such selection, the computation is run:
 
 .. note:: 
     The zenithal pointing has no effect here since the individual NenuFAR antenna are not steerable.
+    The original simulation was performed with NEC2.0 with a model of the radiator over a 3x3 grid on top of an infinite "Average ground" (AG, $\sigma$=5mS/m, $\epsilon_r$=13). The interested reader can ask the team for details.
 
 .. figure:: ../_images/simu_images/antenna.png
     :width: 650
