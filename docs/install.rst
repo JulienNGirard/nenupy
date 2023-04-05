@@ -10,13 +10,13 @@ management tool `PyPI <https://pypi.org/project/nenupytf/>`_.
 
 .. code-block:: bash
 
-   $ pip install nenupy
+   pip install nenupy
 
 Updates need to be regularly check for while this package is still in developpment:
 
 .. code-block:: bash
 
-   $ pip install nenupy --upgrade
+   pip install nenupy --upgrade
 
 .. note:: 
 
@@ -28,13 +28,13 @@ Installation on nancep
 
 .. code-block:: bash
 
-   $ python3.8 -m pip install nenupy
+   python3.8 -m pip install nenupy
 
 or the current 'beta' version hosted on `GitHub <https://github.com/AlanLoh/nenupy>`_:
 
 .. code-block:: bash
 
-   $ pip3 install --user --upgrade https://github.com/AlanLoh/nenupy/tarball/master
+   pip3 install --user --upgrade https://github.com/AlanLoh/nenupy/tarball/master
 
 .. note::
     
@@ -42,25 +42,25 @@ or the current 'beta' version hosted on `GitHub <https://github.com/AlanLoh/nenu
         
         .. code-block:: bash
 
-            $ python3.8 -m pip install setuptools
-            $ python3.8 -m pip install --upgrade jupyter
-            $ python3.8 -m pip install --upgrade --user nbconvert
-            $ python3.8 -m pip install h5py --upgrade
-            $ python3.8 -m pip install ephem --upgrade
-            $ python3.8 -m pip install colorama --upgrade
-            $ python3.8 -m pip install traitlets --upgrade
-            $ python3.8 -m pip install healpy --upgrade
-            $ python3.8 -m pip install nenupy --upgrade
-            $ python3.8 -m ipykernel install --user
-            $ python3.8 -m pip install jupyter ipython
-            $ python3.8 -m pip install /databf2/nenufar/workshop/pygsm/PyGSM/ --user
+            python3.8 -m pip install setuptools
+            python3.8 -m pip install --upgrade jupyter
+            python3.8 -m pip install --upgrade --user nbconvert
+            python3.8 -m pip install h5py --upgrade
+            python3.8 -m pip install ephem --upgrade
+            python3.8 -m pip install colorama --upgrade
+            python3.8 -m pip install traitlets --upgrade
+            python3.8 -m pip install healpy --upgrade
+            python3.8 -m pip install nenupy --upgrade
+            python3.8 -m ipykernel install --user
+            python3.8 -m pip install jupyter ipython
+            python3.8 -m pip install /databf2/nenufar/workshop/pygsm/PyGSM/ --user
 
 To execute a notebook:
 
 .. code-block:: bash
 
-   $ export PATH=$PATH:~/.local/bin
-   $ python3.8 -m jupyter notebook --browser firefox
+   export PATH=$PATH:~/.local/bin
+   python3.8 -m jupyter notebook --browser firefox
 
 
 Dependencies
